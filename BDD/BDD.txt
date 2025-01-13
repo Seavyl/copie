@@ -1,0 +1,100 @@
+array + Objet -> JSON
+
+const etudiants = [
+    {id:1, nom:"Alain, age: 22},
+    {id:2, nom: "Celine", age:33}
+    ];
+
+    etudiants[1].nom
+    
+    const ville ={
+        nom: "Levallois",
+        ecoles:[{},{},{}]
+    };
+
+    ville.ecoles[2]
+
+    - dur à maintenir
+    - 1 seul qui peut écrire à la fois
+    - pas possible de stocker des infos sensibles
+
+Stocker des infos de manière fiable(NASA :Apollo)
+
+Logiciel: 2 parties:
+-SGBD: système de gestion de base de données
+-Données
+
+logiciel:
+-Maria BD
+-Oracle
+-MySQL
+-SQlite
+-POSTGRE
+-Mongo DB
+-Redis
+
+Langage: SQL 
+
+Requête SQL au SGBD qui va passer/regarder dans les données 
+Const A =10
+SQL: insert into "..." A=10 
+Dans les données il y a 3 niveau:
+- Base de données -> tables -> ligne d'enregistrement(tuple)
+
+Pour stocker des données:
+- créer une base
+- créer une table
+- ajouter dans la table les données
+
+MCD:modèle conceptuel des données, schéma(dans cahier des charges).
+Il présente les tables du projet.
+
+Profil user table:
+- prenom
+- nom
+- email
+- sexe
+- password
+- date naissance
+- rôle(admin/user)
+
+Structure de la table:
+Colonnes
+
+type:  
+Texte: 
+Céline 255
+dupont 255
+toto@yahoo.fr 
+booléen:
+H/F
+date:
+1990/02/21
+liste:
+admin/redacteur/lecteur
+
+Exo
+Créer table pour recettes
+titre  : txt 255
+descrption :txt 65 000
+date de publication: date AAAA-MM-JJ HH, datetime AAAA-MM-JJ HH:mm:ss
+prix : number  0->65 
+durée : number 0 < 48h
+
+Titre: VAR CHAR (255)
+Description :Text
+date publication: date time
+prix:  INT  unsigned, DECIMAL (6,2) chiffre à virgule
+Durée:  SMALL INT  unsigned
+
+
+Titre VAR CHAR
+Auteur VAR CHAR
+présentation text /is null
+Date Mis à jour date time/ default current time stap
+Est-publié boolean / default false
+prix INT, Décimal / default 0
+synthèse Text/ is null
+
+Null : est-ce que j'accepte que la colonne, facultative
+Valeur par défaut : Si null alors, now()
