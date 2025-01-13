@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+   
+ul  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none ;
+    margin-right:120px;
+    font-size: 12px;
+    height:50px;
+    padding:0px;
+    
+}
+ 
+li img{
+    width: 70px;
+    padding:0px;
+    
+
+}
+
+
+.menu{ 
+    margin-top:10px;
+    padding-top:5px;
+    height:20px;
+}
+
+
+.einstein{
+    display: flex;
+    background-color: #141445;
+    color:white;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-bottom: 110px;
+    
+    
+   
+}
+h1{
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+    margin-top:80px;
+    
+  
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.photo-intro{
+  
+    align-items:right;
+    padding-bottom:100px;
+    padding-left:30px;
+    padding-top:45px;
+    margin-top:32px;
+    background-color: #141445;
+    
+}
+
+.color{
+    color:aqua;
+}
+
+.images{
+    display: flex;
+    margin-top:80px;
+    margin-left: 100px;
+    
+}
+
+.bio{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    height:500px;
+    margin-left: 20px;
+    
+   
+    
+    
+    
+   
+    
+    
+    
+}
+
+.texte-bio{
+    width: 400px;
+    
+    
+}
+.photo-bio{
+    display:flex;
+    width:100px;
+    
+}
+
+
+
+.container1-photo{
+    display: flex;
+    height: 300px;
+
+}
+.photo-first{
+    margin: 5px;
+}
+
+.photo-second{
+    
+    margin:5px;
+}
+
+.container2-photo{
+    display:flex;
+    flex-direction: column;
+
+    
+    
+}
+
+footer{
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#141445 ;
+    align-items: center;
+}
+
+.cercle{
+    border: 1px solid grey;
+    border-radius:50px;
+}
+.imgfoot{
+    align-items: center;
+    margin-top: 12px;
+    width:40px;
+    height:40px;
+    margin:0px;
+}
+    

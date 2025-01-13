@@ -1,0 +1,122 @@
+
+h1, p, figure, ul, li{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{  
+    font-family: sans-serif;
+}
+
+ul, li{ 
+    list-style: none;
+}
+
+/* mise en page => faire en sorte QUE deux colonnes l'une à côté de l'autre*/
+
+section{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+section .col1{
+    width: 48%;
+}
+section .col2{
+    width: 48%;
+}
+
+ 
+.liste{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+}
+
+section form{
+    margin: 15px 0;
+    padding: 8px 4px;
+    border : 1px solid blue ; 
+}
+
+section form textarea{
+    height: 80px;
+}
+
+section form button{
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    width: 700px;
+    margin : 0 auto;
+}
+
+header ul{
+    display:flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+
+.gallerie {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+
+.gallerie article{
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.gallerie article img{
+    width: 100%;
+}
+
+.gallerie article h2{
+    flex:1;
+}
+
+
+
+.form-contact{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 700px;
+}
+orm > *:not(div){
+    margin: 15px 0;
+    padding: 8px 4px;
+    border : 1px solid blue ; 
+}
+
+form textarea{
+    height: 80px;
+}
+
+form div textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 8px 4px;
+    border : 1px solid blue ; 
+}
+
+form button{
+    background: blue;
+    color : white; 
+    cursor: pointer;
+}

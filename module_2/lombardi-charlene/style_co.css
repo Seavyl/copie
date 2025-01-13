@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+   
+ul  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none ;
+    margin-right:120px;
+    font-size: 12px;
+    height:50px;
+    padding:0px;
+    
+}
+ 
+li img{
+    width: 70px;
+    padding:0px;
+    
+
+}
+
+
+.menu{ 
+    margin-top:10px;
+    padding-top:5px;
+    height:20px;
+    
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    background-color: #2d346c;
+    height:500px;
+    
+   
+}
+
+.points{
+    display:flex;   
+    background-color: aliceblue;
+}
+.point{
+
+}
+
+form{
+    height:200px;
+    margin-top: 100px;
+    border-top: 20px solid #2d2da2;
+    border-radius: 10px;
+    display: flex;
+    background-color:#12124b ;
+    width:400px;
+   
+}
+.points{
+    display: flex;
+    gap: 1px;
+    margin-top:90px;
+    
+   
+    
+    
+
+} 
+.point{
+    border-radius: 50%; 
+    width: 3px;
+    height: 3px; 
+    background-color:grey;
+}
+
+h1{
+    
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left:30px;
+    
+    
+}
+hr{
+    size: 2px;
+    width:20px;
+    height:1px;
+    color:white;
+    background-color: white;
+    margin-left:30px;
+    padding-left:0px;
+
+    
+}
+p{
+    margin-top: 60px;
+    color:grey;
+    font-size: 5px;
+    margin-left: 30px;
+}
+
+.info{
+    
+    justify-content: right;
+    flex-direction: column;
+}
+
+input{
+    margin-left:30px;
+    padding-left:0px;
+    padding-bottom: 10px;
+    color:grey;
+    border-bottom: 1px solid grey;
+    background-color: #12124b;
+    border-top: 1px;
+    border-left: 0;
+    border-right: 0;
+    width: 70%;
+    
+}
+
+
+
+
+
+
+button{
+    border: none;
+    color:#2853a2;
+    background-color: #12124b;
+    margin-left:26px;
+}
+
+footer{
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#141445 ;
+    align-items: center;
+}
+
+.cercle{
+    border: 1px solid grey;
+    border-radius:50px;
+}
+.imgfoot{
+    align-items: center;
+    margin-top: 12px;
+    width:40px;
+    height:40px;
+    margin:0px;
+}

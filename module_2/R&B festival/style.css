@@ -1,0 +1,139 @@
+header{
+    background-color: #171738;
+    border-bottom:1px solid #bc2466;
+    border-top:1px solid #7575f5;
+    text-align:center;
+    ;
+}
+h1{
+    color:#bc2466;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+
+}
+
+h6 {
+    color:grey;
+    font-size:6px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    padding:0;
+    margin: 0;
+    
+
+}
+main{
+    
+    background-color:  #26223f;
+    background-image: linear-gradient(#0b0136,#26223f, #1a1630 );
+    border-bottom: 2px solid #bc2466 ;
+    
+}
+
+.container-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding-top:7px; 
+    border-radius: 10px;
+}
+
+h2{
+    padding-top:20px;
+    display:flex;
+    justify-content: center;
+    margin-top:5px;
+    color:#bc2466;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #38364780;
+    border-radius: 3px;
+    width:130px;
+    height: 40px;
+    margin:2px;
+}
+
+section p {
+    margin:2px;    
+}
+section:hover{
+    box-shadow: 2px 5px 10px  #212020;
+}
+
+.horaire{
+    font-size:6px;
+    color:grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.DJ{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:5px;
+    color:#d5d54b;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start ;
+    text-align: center;
+    width:120px;
+    margin-bottom:10px;
+    
+}
+
+
+.infos{
+    border-radius: 3px;
+    align-items: center;
+    margin:2px 2px 2px 10px;
+    padding-top:5px;
+    font-size: 7px;
+    height:12px;
+    background-color: #38364780; 
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.infos:hover {
+    box-shadow: 2px 2px grey;
+}
+
+footer {
+    
+    background-color: #171738 ;
+    border-bottom:2px solid rgb(32, 32, 184);
+   
+    }
+    
+    footer p {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: grey;
+        font-size:6px;
+        font-family:Arial, Helvetica, sans-serif;
+        height: 3px;
+        padding-top: 7px;
+        border-radius: 3px;
+    }
